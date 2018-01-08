@@ -1,0 +1,197 @@
+
+header {
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: inherit;
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+}
+
+ nav ul  {
+  display: flex;
+  flex-direction: row;
+
+}
+
+nav li {
+  margin: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-right: 800px;
+}
+
+ h1  {
+  font-size: 14px;
+  margin-left: 10px;
+  color: MediumAquamarine;
+}
+
+
+h2 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+ .image1 h2 {
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+h3 {
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+div img {
+padding-bottom: 5px;
+width: 99%;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  top: 120px;
+
+  justify-content: space-around;
+
+}
+
+.columnL {
+  display: flex;
+  width: 630px;
+  flex-wrap: wrap;
+  margin-right: 30px;
+
+}
+
+.columnM {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  align-items: flex-start;
+
+}
+
+.columnS {
+  display: flex;
+  width: 240px;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.image1 {
+  display: flex;
+  width: inherit;
+  height: 300px;
+  align-items: center;
+  text-align: left;
+  padding-left: 20px;
+  background-image: url("../images/main-story.png");
+}
+
+.image2 {
+
+  display: flex;
+  width: inherit;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  padding-left: 20px;
+  background-image: url("../images/Fall.png");
+}
+
+.image3 {
+  display: flex;
+  width: inherit;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  padding-left: 20px;
+  background-image: url("../images/cameraman.png");
+}
+
+.image4 {
+  display: flex;
+  width: inherit;
+  align-items: flex-start;
+  text-align: center;
+  height: 300px;
+  padding-left: 20px;
+  background-image: url("../images/catCEO.png");
+}
+
+.catstory p {
+  padding-bottom: 5px;
+}
+
+.column1, .column2 {
+  display: flex;
+  flex-direction: column;
+
+}
+.column1 {
+  margin-right: 30px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsbites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.newsbites p {
+
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+
+.list {
+    background-color: WhiteSmoke;
+}
